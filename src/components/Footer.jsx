@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
 
       <div className="relative border-t border-cream-50/10">
-        <div className="mx-auto flex max-w-7xl flex-col-reverse items-center gap-3 px-6 py-6 text-center sm:flex-row sm:justify-between sm:text-left lg:px-10">
+        <div className="mx-auto flex max-w-7xl flex-col-reverse items-center gap-3 px-6 pb-24 pt-6 text-center sm:flex-row sm:justify-between sm:py-6 sm:text-left lg:px-10">
           <p className="text-xs text-cream-100/40">
             &copy; {new Date().getFullYear()} Rana Exports &amp; Logistics Pvt. Ltd. All rights reserved.
           </p>

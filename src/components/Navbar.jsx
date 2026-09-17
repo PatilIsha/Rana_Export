@@ -100,6 +100,12 @@ export default function Navbar() {
                   {link.label}
                 </NavLink>
               ))}
+              <a
+                href="tel:+918285515748"
+                className="mt-2 flex items-center justify-center gap-2 rounded-lg border border-cream-50/15 px-4 py-3 text-sm font-semibold text-cream-50/90"
+              >
+                <FaPhoneAlt className="text-gold-400" size={13} /> +91 82855 15748
+              </a>
               <Link
                 to="/contact"
                 onClick={() => setOpen(false)}

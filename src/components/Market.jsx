@@ -28,15 +28,15 @@ export default function Market() {
             designated FMD-free zones, unlocking premium export corridors.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 gap-6">
-            <div className="rounded-2xl border border-forest-900/10 bg-white p-6 shadow-sm">
-              <div className="font-display text-3xl font-bold text-forest-950">
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-6">
+            <div className="rounded-2xl border border-forest-900/10 bg-white p-4 shadow-sm sm:p-6">
+              <div className="font-display text-2xl font-bold text-forest-950 sm:text-3xl">
                 <Counter value={43} prefix="₹" suffix="K Cr" />
               </div>
               <div className="mt-1 text-xs font-semibold uppercase tracking-wide text-forest-900/60">FY25 Exports</div>
             </div>
-            <div className="rounded-2xl border border-forest-900/10 bg-white p-6 shadow-sm">
-              <div className="font-display text-3xl font-bold text-forest-950">
+            <div className="rounded-2xl border border-forest-900/10 bg-white p-4 shadow-sm sm:p-6">
+              <div className="font-display text-2xl font-bold text-forest-950 sm:text-3xl">
                 <Counter value={12.56} decimals={2} suffix="%" />
               </div>
               <div className="mt-1 text-xs font-semibold uppercase tracking-wide text-forest-900/60">YoY Growth</div>

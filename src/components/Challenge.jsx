@@ -42,8 +42,16 @@ export default function Challenge() {
               Farmers lose income to exploitative middlemen, animals suffer high mortality rates during
               transit, and international buyers struggle to find compliant, traceable supply chain partners.
             </p>
-            <div className="mt-8 overflow-hidden rounded-3xl border border-cream-50/10">
-              <SmartImage image={IMAGES.ruralRoad} alt="Rural road connecting farms across Punjab, India" className="aspect-[4/3]" />
+            <div className="relative mt-10 mb-8 sm:mb-2">
+              <div className="absolute -inset-4 -z-10 rounded-[2.5rem] border-2 border-gold-400/30" />
+              <div className="absolute -bottom-6 -right-6 -z-10 h-32 w-32 rounded-full bg-gold-400/10 blur-2xl" />
+              <div className="absolute -top-5 -left-5 h-10 w-10 rounded-full border-2 border-gold-400/50 bg-forest-950" />
+              <div className="overflow-hidden rounded-[2rem] border border-cream-50/10 shadow-2xl shadow-forest-950/60">
+                <SmartImage image={IMAGES.ruralRoad} alt="Rural road connecting farms across Punjab, India" className="aspect-[4/3]" />
+              </div>
+              <div className="absolute -bottom-5 left-6 right-6 flex items-center justify-center rounded-xl border border-gold-400/30 bg-forest-950/90 py-2.5 text-center text-xs font-semibold uppercase tracking-[0.2em] text-gold-400 shadow-lg backdrop-blur-sm">
+                Connecting Farms to Ports
+              </div>
             </div>
           </div>
         </Reveal>

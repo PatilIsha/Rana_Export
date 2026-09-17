@@ -4,7 +4,9 @@ import SmartImage from "./SmartImage";
 export default function PageHero({ image, alt, eyebrow, title }) {
   return (
     <section className="relative flex h-[46vh] min-h-[360px] items-end overflow-hidden bg-forest-950">
-      <SmartImage image={image} alt={alt} className="absolute inset-0 h-full w-full" />
+      <div className="absolute inset-0">
+        <SmartImage image={image} alt={alt} className="h-full w-full" />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-forest-950/70 to-forest-950/30" />
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-14 lg:px-10">
         <motion.span

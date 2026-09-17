@@ -24,7 +24,7 @@ export default function ExportGallery() {
           </p>
         </Reveal>
 
-        <div className="mt-16 grid gap-6 lg:grid-cols-3">
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {ITEMS.map((item, i) => (
             <Reveal key={item.title} delay={i * 0.1} className="group relative overflow-hidden rounded-3xl">
               <SmartImage image={item.image} alt={item.title} className="aspect-[4/5]" imgClassName="transition-transform duration-700 group-hover:scale-110" />

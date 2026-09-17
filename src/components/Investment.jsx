@@ -42,17 +42,17 @@ export default function Investment() {
         </Reveal>
 
         <div className="mt-16 grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-          <Reveal direction="right" className="rounded-3xl border border-cream-50/10 bg-forest-900/50 p-6 sm:p-8">
+          <Reveal direction="right" className="rounded-3xl border border-cream-50/10 bg-forest-900/50 p-4 sm:p-8">
             <div className="h-[360px] sm:h-[420px]">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={DATA} layout="vertical" margin={{ top: 0, right: 30, left: 10, bottom: 0 }}>
+                <BarChart data={DATA} layout="vertical" margin={{ top: 0, right: 20, left: 0, bottom: 0 }}>
                   <CartesianGrid stroke="#fbf8f214" horizontal={false} />
-                  <XAxis type="number" tick={{ fill: "#fbf8f299", fontSize: 12 }} axisLine={false} tickLine={false} />
+                  <XAxis type="number" tick={{ fill: "#fbf8f299", fontSize: 11 }} axisLine={false} tickLine={false} />
                   <YAxis
                     type="category"
                     dataKey="name"
-                    width={150}
-                    tick={{ fill: "#fbf8f2cc", fontSize: 12 }}
+                    width={110}
+                    tick={{ fill: "#fbf8f2cc", fontSize: 10 }}
                     axisLine={false}
                     tickLine={false}
                   />

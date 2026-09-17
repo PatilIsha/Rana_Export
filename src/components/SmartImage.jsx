@@ -4,7 +4,7 @@ export default function SmartImage({ image, alt, className = "", imgClassName = 
   const [failed, setFailed] = useState(false);
 
   return (
-    <div className={`relative overflow-hidden bg-gradient-to-br from-forest-800 to-forest-950 ${className}`}>
+    <div className={`overflow-hidden bg-gradient-to-br from-forest-800 to-forest-950 ${className}`}>
       {!failed && (
         <img
           src={image}
