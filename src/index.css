@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: theme("fontFamily.body");
+  background-color: theme("colors.cream.50");
+  color: theme("colors.ink.900");
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: theme("fontFamily.display");
+}
+
+::selection {
+  background-color: theme("colors.gold.500");
+  color: theme("colors.forest.950");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: theme("colors.cream.100");
+}
+::-webkit-scrollbar-thumb {
+  background: theme("colors.forest.700");
+  border-radius: 999px;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(100deg, #e2c27a 0%, #c8a24d 45%, #f3dfa8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
