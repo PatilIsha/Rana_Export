@@ -5,7 +5,7 @@ import SmartImage from "./SmartImage";
 import { IMAGES } from "../data/images";
 
 const DOMESTIC = [
-  { title: "Direct farmer partnerships", text: "Expanding procurement network across North India" },
+  { title: "Direct farmer partnerships", text: "Expanding procurement network across North & Northeast India, including Nagaland and Assam" },
   { title: "5+ procurement centres", text: "Regional hubs for aggregation and quality control" },
   { title: "Strategic logistics partnerships", text: "Fleet expansion and cold chain integration" },
   { title: "Long-term supply agreements", text: "Guaranteed off-take securing revenue predictability" },

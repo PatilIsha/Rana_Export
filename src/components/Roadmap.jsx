@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 import SectionTag from "./SectionTag";
 
 const PHASES = [
-  { year: "2026", title: "Foundation", text: "Expand North India procurement network. Establish 5+ centres. Launch initial export shipments." },
+  { year: "2026", title: "Foundation", text: "Expand procurement network across North & Northeast India (including Nagaland, Assam). Establish 5+ centres. Launch initial export shipments." },
   { year: "2027", title: "Acceleration", text: "Increase export volumes by 150%. Launch technology-enabled livestock tracking. Open regional logistics hubs." },
   { year: "2028", title: "Expansion", text: "Build long-term international buyer network. Expand livestock categories. Achieve ₹12 Crore+ revenue." },
   { year: "2029", title: "Integration", text: "Develop integrated export infrastructure. Secure 10+ long-term supply agreements. Explore new geographies." },

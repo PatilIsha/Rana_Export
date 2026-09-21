@@ -4,7 +4,7 @@ import SectionTag from "./SectionTag";
 
 const ITEMS = [
   { icon: FaLink, title: "End-to-End Control", text: "Integrated procurement and logistics model eliminates dependency on third parties at every critical stage." },
-  { icon: FaUsers, title: "Strong Farmer Network", text: "Direct sourcing relationships across North India provide pricing power and supply reliability." },
+  { icon: FaUsers, title: "Strong Farmer Network", text: "Direct sourcing relationships across North & Northeast India, including Nagaland and Assam, provide pricing power and supply reliability." },
   { icon: FaGavel, title: "Regulatory Expertise", text: "Deep APEDA compliance capability and export documentation experience—a rare differentiator." },
   { icon: FaHeart, title: "Animal Welfare Focus", text: "Biosecurity protocols and climate-controlled transport significantly reduce mortality below industry average." },
   { icon: FaGlobeAsia, title: "Global Market Strategy", text: "Targeted outreach to Southeast Asia, Middle East, and Africa—markets with high unmet demand." },

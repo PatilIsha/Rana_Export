@@ -7,7 +7,7 @@ const ADDRESS = "H. No. 31, 1st Floor, B-31, DSIDC Work Centre, Kalyanpuri, East
 
 const DETAILS = [
   { icon: FaPhoneAlt, label: "Phone", value: "+91 82855 15748", href: "tel:+918285515748" },
-  { icon: FaEnvelope, label: "Email", value: "sunny1310rana@gmail.com", href: "mailto:sunny1310rana@gmail.com" },
+  { icon: FaEnvelope, label: "Email", value: "ranaexport1310@gmail.com", href: "mailto:ranaexport1310@gmail.com" },
   { icon: FaBuilding, label: "Entity", value: "Rana Exports & Logistics Pvt. Ltd.", href: null },
   {
     icon: FaMapMarkerAlt,
@@ -67,7 +67,7 @@ export default function Contact() {
 
         <Reveal delay={0.25} className="mt-12">
           <a
-            href="mailto:sunny1310rana@gmail.com"
+            href="mailto:ranaexport1310@gmail.com"
             className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-400 to-gold-600 px-8 py-4 text-sm font-bold text-forest-950 shadow-lg shadow-gold-500/30 transition-transform hover:scale-105"
           >
             Start a Conversation
