@@ -1,7 +1,6 @@
 import PageHero from "../components/PageHero";
 import WhyUs from "../components/WhyUs";
-import Financials from "../components/Financials";
-import Investment from "../components/Investment";
+import OurStandards from "../components/OurStandards";
 import CTABanner from "../components/CTABanner";
 import { IMAGES } from "../data/images";
 
@@ -12,11 +11,10 @@ export default function WhyUsPage() {
         image={IMAGES.riceFields}
         alt="Green fields against a hilltop landscape in India"
         eyebrow="Why Rana Exports"
-        title="Built different. Backed by the numbers."
+        title="Built different. Built on trust."
       />
       <WhyUs />
-      <Financials />
-      <Investment />
+      <OurStandards />
       <CTABanner
         title="Ready to partner with us?"
         text="Let's discuss how we can work together on India's livestock export opportunity."

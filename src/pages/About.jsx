@@ -1,6 +1,5 @@
 import PageHero from "../components/PageHero";
 import Market from "../components/Market";
-import Roadmap from "../components/Roadmap";
 import Leadership from "../components/Leadership";
 import SocialImpact from "../components/SocialImpact";
 import { IMAGES } from "../data/images";
@@ -15,7 +14,6 @@ export default function About() {
         title="Our story, our vision, our people"
       />
       <Market />
-      <Roadmap />
       <Leadership />
       <SocialImpact />
     </>

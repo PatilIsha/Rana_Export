@@ -21,7 +21,7 @@ export default function Solutions() {
       <GrowthStrategy />
       <CTABanner
         title="See what sets us apart"
-        text="Explore our competitive advantages, financials, and investment case."
+        text="Explore our competitive advantages and the standards we hold every shipment to."
         ctaLabel="Explore Why Us"
         to="/why-us"
       />
